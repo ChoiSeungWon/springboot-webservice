@@ -32,7 +32,7 @@ public class HelloControllerTest {
 
         mvc.perform(get("/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(hello))EnableJpaAuditing;
+                .andExpect(content().string(hello));
     }
 
     @WithMockUser(roles = "USER")
