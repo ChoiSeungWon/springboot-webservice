@@ -1,8 +1,5 @@
 package com.swchoi.webservice.springboot.domain.posts;
 
-import com.swchoi.webservice.springboot.domain.posts.Posts;
-import com.swchoi.webservice.springboot.domain.posts.PostsRepository;
-import jdk.vm.ci.meta.Local;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
