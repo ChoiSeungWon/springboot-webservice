@@ -44,7 +44,7 @@ deploy:
     bundle_type : zip
     application : springboot-webservice
 
-    deplyment_group : springboot-webservice-group
+    deployment_group : springboot-webservice-group
     region: ap-northeast-2
     wait-until-deployed : true
 
