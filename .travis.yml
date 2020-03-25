@@ -37,13 +37,10 @@ deploy:
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-
     bucket: swchoi-springboot-build
     key : swchoi-springboot.zip
-
     bundle_type : zip
     application : springboot-webservice
-
     deployment_group : springboot-webservice-group
     region: ap-northeast-2
     wait-until-deployed : true
