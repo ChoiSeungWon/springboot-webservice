@@ -18,7 +18,6 @@ before_install:
 script: "./gradlew clean build"
 
 before_deploy:
-  - ls
   - zip -r springboot-webservice ./*
   - mkdir -p deploy
   - mv springboot-webservice.zip deploy/springboot-webservice.zip
