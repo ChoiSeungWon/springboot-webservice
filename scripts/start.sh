@@ -16,7 +16,7 @@ cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
 echo "> 새 어플리케이션 배포"
 JAR_NAME=$(ls -tr $REPOSITORY/*.jar | tail -n 1)
-JAR_NAME_TEMP=`echo $JAR_NAME | cut -c1-37`
+JAR_NAME_TEMP=`echo $JAR_NAME | cut -c1-36`
 mv $JAR_NAME $JAR_NAME_TEMP$IDLE_PROFILE.jar
 JAR_NAME=$(ls -tr $REPOSITORY/*.jar | tail -n 1)
 
